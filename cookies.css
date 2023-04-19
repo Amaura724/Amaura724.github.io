@@ -1,0 +1,59 @@
+body {
+    background-color: #1976D2;
+    color: #FAFE01;
+}
+
+header {
+    background-color: #BBDEFB;
+    color: #A52A2A;
+    background-image: url(cookietitle.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+input[type="submit"] {
+    margin-left: 140px;
+}
+
+table {
+    border: 2px solid #FFC0CB;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5em;
+    border: 2px solid #964B00;
+    text-align: center;
+}
+
+th {
+    padding: 0.5em;
+    border: 2px solid #FFA500;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #808080;
+}
+nav a:hover{
+    background-color: #FDC101;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 1em 2em;
+    transition: background-color 2s linear;
+}
